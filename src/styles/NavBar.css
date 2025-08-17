@@ -1,0 +1,79 @@
+/* styles/NavBar.css */
+
+.navbar {
+  position: fixed;   /* keeps it fixed at the top */
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #0b0505; /* or whatever color you want */
+  z-index: 1000;    /* ensures it stays above other elements */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1); /* optional: small shadow */
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body {
+  padding-top: 70px; /* same height as navbar */
+}
+.navbar-logo {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: violet;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+
+.nav-button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.nav-button.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Hamburger button */
+.menu-toggle {
+  display: none; /* Hidden on desktop */
+  font-size: 1.6rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* Mobile menu hidden by default */
+.mobile-menu {
+  display: none;
+  flex-direction: column;
+  list-style: none;
+  background: #444;
+  padding: 0.5rem 1rem;
+  gap: 0.8rem;
+}
+
+/* MOBILE VIEW */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none; /* Hide normal nav on mobile */
+  }
+
+  .menu-toggle {
+    display: block; /* Show hamburger */
+  }
+
+  .mobile-menu {
+    display: flex; /* Show vertical menu when open */
+  }
+}
