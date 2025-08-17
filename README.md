@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React Task - Contact Page & User Info
 
 This project is a React-based web application built as part of a task assignment.  
@@ -69,3 +70,7 @@ src/
 5. Open in browser:
 
  http://localhost:3000
+=======
+# React_Frontend
+This project is a React-based web application. It includes a  Home Page, Contact Page, Sign Up page, About Us.  The project demonstrates frontend skills such as React components, routing, and styled UI.
+>>>>>>> b4ec485 (Initial commit)
