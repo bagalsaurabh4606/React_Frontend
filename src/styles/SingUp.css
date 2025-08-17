@@ -1,4 +1,4 @@
-/* Container */
+
 .signup-container {
   max-width: 420px;
   margin: 3rem auto;
@@ -10,7 +10,7 @@
   animation: fadeIn 0.5s ease-in-out;
 }
 
-/* Heading */
+
 .signup-container h2 {
   text-align: center;
   margin-bottom: 2rem;
@@ -19,7 +19,7 @@
   color: #1f2937;
 }
 
-/* Form Groups */
+
 .form-group {
   display: flex;
   flex-direction: column;
@@ -33,7 +33,7 @@
   color: #374151;
 }
 
-/* Inputs */
+
 .form-group input {
   width: 100%;
   padding: 0.85rem 0rem;
@@ -51,7 +51,7 @@
   background-color: #ffffff;
 }
 
-/* Error message */
+
 .error {
   font-size: 0.85rem;
   color: #dc2626;
@@ -60,7 +60,7 @@
   animation: fadeIn 0.3s ease-in;
 }
 
-/* Success message (optional future use) */
+
 .success {
   margin-top: 1rem;
   padding: 0.9rem 1rem;
@@ -73,7 +73,7 @@
   animation: fadeIn 0.3s ease-in;
 }
 
-/* Submit button */
+
 .btn-submit {
   width: 100%;
   padding: 0.95rem 1.2rem;
@@ -96,7 +96,7 @@
   transform: scale(0.98);
 }
 
-/* Animations */
+
 @keyframes fadeIn {
   from {
     opacity: 0;
